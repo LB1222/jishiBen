@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/rl_item_container1"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"
+        android:ellipsize="end"
+        android:maxLines="1"
+
+        android:text="您好"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_context"
+
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLines="4"
+
+        android:text="1231231231321231233"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_time"
+
+        android:gravity="center"
+        android:text="2023-3-29 20:38:10"
+        android:textSize="14sp"
+        />
+</LinearLayout>
